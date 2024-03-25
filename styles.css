@@ -1,0 +1,162 @@
+
+ /* Default styles for mobile */
+ .grid-container-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 1rem;
+  height: 9em;
+}
+
+.grid-container-grid {
+  display: grid;
+  grid-template-columns: 20em;
+  height: 8em;
+  font-size: 1.1rem;
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) {
+  .grid-container-flex {
+    font-size: 1.3rem;
+  }
+
+  .grid-container-grid {
+    grid-template-columns: none;
+    height: 10em;
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 1024px) {
+  .grid-container-flex {
+    font-size: 2rem;
+  }
+
+  .grid-container-grid {
+    grid-template-columns: none;
+    height: 12em;
+  }
+}
+
+.montserrat> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #4b5052;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: inline;
+  margin-right: 0px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul :hover {
+  background-color: #7c8588;
+
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsiveB {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsiveC {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsiveVideo {
+  width: 100%;
+  height: 100%;
+  max-width:560px;
+  height:315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.a {
+  text-indent: 30px;
+}
+
+#contact{
+  height: 50bh;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  padding: 20px 0;
+}
